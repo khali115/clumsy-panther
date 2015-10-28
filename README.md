@@ -1,11 +1,11 @@
 Clumsy Panther
 ===========
 
-A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther" .
+A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther".
 
 ![](http://i.imgur.com/Slbvt65.png)
 
-Play online at http://ellisonleao.github.io/clumsy-bird/
+Play online at http://self103.github.io/clumsy-panther/
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
