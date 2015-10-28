@@ -1,9 +1,9 @@
 game.resources = [
     // images
-    {name: "bg", type:"image", src: "data/img/bg.png"},
-    {name: "clumsy", type:"image", src: "data/img/clumsy.png"},
+    {name: "bg", type:"image", src: "data/img/chaptown.png"},
+    {name: "clumsy", type:"image", src: "data/img/panther.png"},
     {name: "pipe", type:"image", src: "data/img/pipe.png"},
-    {name: "logo", type:"image", src: "data/img/logo2.png"},
+    {name: "logo", type:"image", src: "data/img/logo.png"},
     {name: "ground", type:"image", src: "data/img/ground.png"},
     {name: "gameover", type:"image", src: "data/img/gameover.png"},
     {name: "gameoverbg", type:"image", src: "data/img/gameoverbg.png"},

@@ -25,7 +25,7 @@ game.TitleScreen = me.ScreenObject.extend({
         //logo
         var logoImg = me.loader.getImage('logo');
         this.logo = new me.Sprite(
-            me.game.viewport.width/2 - 170,
+            me.game.viewport.width/2 - 170, ///MODIFY LOGO HORIZONTAL
             -logoImg,
             {image: logoImg}
         );
@@ -33,7 +33,7 @@ game.TitleScreen = me.ScreenObject.extend({
 
         var that = this;
         var logoTween = me.pool.pull("me.Tween", this.logo.pos)
-            .to({y: me.game.viewport.height/2 - 100}, 1000)
+            .to({y: me.game.viewport.height/3 - 100}, 1000)/// MODIFY LOGO VERTICAL
             .easing(me.Tween.Easing.Exponential.InOut).start();
 
         this.ground1 = me.pool.pull("ground", 0, me.video.renderer.getHeight() - 96);
