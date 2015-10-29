@@ -4,6 +4,10 @@ var BirdEntity = me.Entity.extend({
         settings.image = me.loader.getImage('clumsy');
         settings.width = 85;
         settings.height = 60;
+        
+        settings.spritewidth = 72;///need to fix
+        settings.spriteheight= 48;///need to fix
+        
         settings.framewidth = 85;
         settings.frameheight = 60;
 
@@ -102,6 +106,27 @@ var BirdEntity = me.Entity.extend({
     }
 
 });
+
+
+/*var RainbowEntity = me.Entity.extend({
+   init: function(x,y,angle) {
+        var settings = {};
+        settings.image = me.loader.getImage('rainbow');
+        settings.width = 20;
+        settings.height = 36;
+        this._super(me.Entity,'init',[x,y,settings]);
+        this.alwaysUpdate = true;
+        this.body.gravity = 0;
+        this.body.vel.set(-6,0);
+        this.body.addShape(new me.Rect(0,0,settings.width,settings.height));
+        this.renderable.angle = angle;
+        this.body.collisionType = me.collision.types.NO_OBJECT;
+        this.type = 'rainbow';
+
+    },
+    
+*/
+
 
 
 var PipeEntity = me.Entity.extend({
