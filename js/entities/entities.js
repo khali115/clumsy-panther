@@ -107,8 +107,9 @@ var BirdEntity = me.Entity.extend({
 
 });
 
+/*
 
-/*var RainbowEntity = me.Entity.extend({
+var RainbowEntity = me.Entity.extend({
    init: function(x,y,angle) {
         var settings = {};
         settings.image = me.loader.getImage('rainbow');
@@ -124,7 +125,18 @@ var BirdEntity = me.Entity.extend({
         this.type = 'rainbow';
 
     },
-    
+    update: function(dt) {
+        this.pos.add(this.body.vel);
+        if (this.pos.x < -this.renderable.width) {
+            this.pos.x = me.video.renderer.getWidth() - 10;
+        if(this.pos.x < -this.renderable.width) {
+            me.game.world.removeChild(this);
+        }
+        this.updateBounds();
+        return this._super(me.Entity, 'update', [dt]);
+    },
+    },
+});
 */
 
 
