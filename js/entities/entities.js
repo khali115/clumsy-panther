@@ -224,6 +224,27 @@ var HitEntity = me.Entity.extend({
         this.body.addShape(new me.Rect(0, 0, settings.width - 30, settings.height - 30));
         this.type = 'hit';
     },
+    
+/*
+var RainbowEntity = me.Entity.extend({
+    init: function(x,y,angle) {
+        var settings = {};
+        settings.image = me.loader.getImage('rainbow');
+        settings.width = 20;
+        settings.height = 36;
+        this._super(me.Entity,'init',[x,y,settings]);
+        this.alwaysUpdate = true;
+        this.body.gravity = 0;
+        this.body.vel.set(-6,0);
+        this.body.addShape(new me.Rect(0,0,settings.width,settings.height));
+        this.renderable.angle = angle;
+        this.body.collisionType = me.collision.types.NO_OBJECT;
+        this.type = 'rainbow';
+
+    },
+*/
+    
+    
 
     update: function(dt) {
         // mechanics
