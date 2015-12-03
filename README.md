@@ -3,7 +3,7 @@ Clumsy Panther
 
 A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther".
 
-![](http://imgur.com/CXWtHlI)
+![](http://i.imgur.com/CXWtHlI.png?1)
 
 Play online at http://self103.github.io/clumsy-panther/
 
