@@ -32,5 +32,5 @@ See [CUSTOMIZING](https://github.com/self103/clumsy-panther/blob/gh-pages/CUSTOM
 
 ## License
 
-This version is protected under the [MIT License](https://github.com/self103/clumsy-panther/blob/gh-pages/License.md)
+This version is protected under the [MIT License](https://github.com/self103/clumsy-panther/blob/gh-pages/LICENSE)
 
