@@ -1,7 +1,7 @@
 Clumsy Panther
 ===========
 
-A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther".
+A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther", a game to reach your window of opportunity.
 
 ![](http://i.imgur.com/CXWtHlI.png?1)
 
