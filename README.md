@@ -1,9 +1,9 @@
 Clumsy Panther
 ===========
 
-A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther".
+A MelonJS made "Flappy Bird" clone, altered to "Clumsy Panther", a game to reach your window of opportunity.
 
-![](http://i.imgur.com/Slbvt65.png)
+![](http://i.imgur.com/CXWtHlI.png?1)
 
 Play online at http://self103.github.io/clumsy-panther/
 
@@ -28,4 +28,9 @@ Open your browser at `http://localhost:8001/`
 
 ## Making your customization
 
-See [CUSTOMIZING](https://github.com/ellisonleao/clumsy-bird/blob/gh-pages/CUSTOMIZING.md)
+See [CUSTOMIZING](https://github.com/self103/clumsy-panther/blob/gh-pages/CUSTOMIZING.md)
+
+## License
+
+This version is protected under the [MIT License](https://github.com/self103/clumsy-panther/blob/gh-pages/LICENSE)
+
