@@ -54,7 +54,7 @@ game.TitleScreen = me.ScreenObject.extend({
             draw: function (renderer) {
                 var measure = this.font.measureText(renderer, this.text);
                 var xpos = me.game.viewport.width/2 - measure.width/2;
-                var ypos = me.game.viewport.height/2 + 50;
+                var ypos = me.game.viewport.height-50;//height/2 + 50;
                 this.font.draw(renderer, this.text, xpos, ypos);
             }
         })), 12);
