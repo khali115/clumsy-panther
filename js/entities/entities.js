@@ -48,7 +48,7 @@ var BirdEntity = me.Entity.extend({
             var currentPos = this.pos.y;
             // stop the previous tweens
             this.flyTween.stop();
-            this.flyTween.to({y: currentPos - 72}, 50);
+            this.flyTween.to({y: currentPos - 30}, 50);
             this.flyTween.start();
             this.renderable.angle = -this.maxAngleRotation;
         } else {
